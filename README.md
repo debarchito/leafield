@@ -66,8 +66,8 @@ LearningToken is an ERC20 token smart contract designed for a gamified learning 
 
 ### Contact
 
-**Name:** Debarchito Nath
-**Email:** debarchito.nath.adtu@gmail.com
+- **Name:** Debarchito Nath
+- **Email:** debarchito.nath.adtu@gmail.com
 
 ### License
 
