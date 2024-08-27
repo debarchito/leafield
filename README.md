@@ -34,6 +34,7 @@ LearningToken is an ERC20 token smart contract designed for a gamified learning 
 |      (Platform Owner)       |
 |                             |
 +-------------+---------------+
+```
 
 ### Features
 
