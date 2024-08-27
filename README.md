@@ -61,8 +61,8 @@ LearningToken is an ERC20 token smart contract designed for a gamified learning 
     
 ### Contract
 
-**Blockchain:** Edu-Chain
-**Contract Address:** 0x79b980dEfDeC2f0bcdE1abf142202c8Dee932f57
+- **Blockchain:** Edu-Chain
+- **Contract Address:** 0x79b980dEfDeC2f0bcdE1abf142202c8Dee932f57
 
 ### Contact
 
