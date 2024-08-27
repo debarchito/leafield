@@ -36,14 +36,11 @@ To deploy the `LearningToken` contract, follow these steps:
     npx hardhat compile
     ```
 
-4. Deploy the contract to your preferred network:
-    ```bash
-    npx hardhat run scripts/deploy.js --network <network-name>
-    ```
+4. Deploy the contract to your preferred network.
 
 ### Basic Usage
 
-1. **Set Milestones**:
+1. **Set Milestones (e.g. reference in JS)**:
     ```solidity
     learningToken.setMilestone(userAddress, milestone);
     ```
