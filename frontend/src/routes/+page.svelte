@@ -36,16 +36,15 @@
 		}
 	}
 
-	function add() {
-		utils
-			.getMilestone(address, contract)
-			.then((e) => {
-				utils
-					.setMilestone(address, e + 1n, contract)
-					.then((e) => (milestones += 1n))
-					.catch(console.error);
-			})
-			.catch(console.error);
+	async function add() {
+	  try {
+	  	let addressMilestones = await utils.getMilestone(address, contract);
+	  	await utils.setMilestone(address, addressMilestones + 1n, contract);
+	  	milestones += 1n;
+	  } catch(e) {
+	  	console.error(e);
+	  	alert('Encountered an error while adding milestones. Please check browser console for logs.');
+	  }
 	}
 </script>
 
